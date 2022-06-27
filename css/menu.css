@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+html{
+    font-size: medium;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+.Titulo{
+    font-size: large;
+    font-weight: bold;
+    color: yellow;
+    margin: 0 auto;
+}
+
+body {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #006837 0%, #ffff) 100%;
+}
+.mensJustificativa{
+    text-align: center;
+}
+
+#justificativa_txt {
+    width: 400px;
+    height: 300px;
+    align-items: center;
+}
+
+.botoes {
+    margin: 10px;
+    border-radius: 20px; 
+    background-size: auto;
+    align-items: center;
+    font: 1em sans-serif;
+    width: 300px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
