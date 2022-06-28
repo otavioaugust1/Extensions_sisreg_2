@@ -2,7 +2,7 @@
     "name": "SISREG_Devolvidos",
     "description": "Adiciona novas funcionalidades ao SISREG",
     "version": "1.0",
-    "manifest_version": 3,
+    "manifest_version": 2,
     "browser_action":{
          "default_popup": "index.html"
     },
@@ -19,7 +19,7 @@
              "https://sisregiiitreinamento.saude.gov.br/",
              "https://sisregiii.saude.gov.br/cgi-bin/index"           
          ],        
-         "js": ["js/Content.js"]        
+         "js": ["js/Cancelar.js"]        
      }
      ] 
  }

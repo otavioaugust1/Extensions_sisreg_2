@@ -8,20 +8,25 @@
     <link rel="stylesheet" href="./css/menu.css">
 </head>
 <body>
-    <div class="barra">
-        <span class="Titulo">CANCELAR SOLICITAÇÕES DEVOLVIDAS PELO REGULADOR</span>
-    </div>
-    <div class="mensJustificativa">Justificativa para o cancelamento automatico das solicitações devolvidas <br>
-        <input type="text" name="justificativa_txt" id="justificativa_txt">
-        <input type="button" value="Salvar Mensagem" id="Salvar Mensagem">
+    <div class="fundo">     
+        
+        <div>
+            <span class="titulo">CANCELAR SOLICITAÇÕES DEVOLVIDAS PELO REGULADOR</span>
+        </div>
+        <div class="mensJustificativa">Justificativa para o cancelamento automatico das solicitações devolvidas <br>
+            <input type="text" name="justificativa_txt" id="justificativa_txt"><br>
+            <input type="button" class="botoes" value="salvarMensagem" id="salvarMensagem" onclick="salvarMensagem()">
+        </div>   
+        <table class="menu">
+            <tr>
+                <td><button class="botoes" onclick="pesquisar()">pesquisar</button></td>
+                <td><button class="botoes" onclick="lista()">lista</button></td>
+                <td><button class="botoes" onclick="play()">play</button></td>
+                <td><button class="botoes" onclick="stop()">stop</button></td>
+                <td><button class="botoes" onclick="reset()">reset</button></td>
+            </tr>            
+        </table>
     </div>   
-    <div class="botoes">
-        <input type="button" id="btPlay" value="play">        
-        <input type="button" id="btstop" value="stop">        
-        <input type="button" id="btHistorico" value="historico">
-        <input type="button" id="btZerar" value="zerar">          
-    </div>
-
-</body>
+ </body>
 <script type="text/javasript" src="/js/Cancelar.js"></script>  
 </html>
